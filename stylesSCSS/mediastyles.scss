@@ -1,0 +1,735 @@
+// MEDIA QUERIES
+
+@media screen and (max-width: 1024px) {
+
+    header .main-banner {
+        // background: url(/images/dinner-meal-table-wine.jpg) no-repeat;
+        max-height: 500px;
+        overflow: hidden;
+    }
+
+    header .wrapper .header-bar-container {
+        display: block;
+        .contact-left {
+            width: 100%;
+            .contact {
+                display: block;
+                width: 100%;
+                span {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 8px;
+                    text-align: left;
+                    .fa-mobile-alt {
+                        margin-left: 3px;
+                    }
+                    .fa-envelope {
+                        margin-left: 2px;
+                    }
+                }
+
+            }
+        }
+        .social-media {
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+    }
+
+    .pop-up .pop-up-card {
+        width: 80%;
+        margin: 0 auto;
+
+        .pop-up-text {
+            padding: 5%;
+            h3 {
+                font-size: 20px;
+                margin-bottom: 16px;
+            }
+            p{
+                font-size: 14px;
+                text-align: auto;
+            }
+        }
+    }
+
+    .reservation-pop-up .reservation-container-card {
+        width: 98%;
+            .rest-info .right-container {
+                margin-left: 2%;
+                h2 {
+                    font-size: 24px;
+                }
+        }
+    }
+
+
+    main {
+
+        .parallax-img-one, .parallax-img-two, .parallax-img-three, .parallax-img-four,.parallax-img-five {
+            height: 600px;
+        }
+        .wrapper {
+            .gallery {
+                margin-top: 20px;
+                .gallery-container {
+                    flex-wrap: wrap;
+                    .gallery-img-container {
+                        flex: 1 1 46%;
+                        margin: 2%;
+                        img {
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .about-us .about-right .about-fields {
+                display: block;
+                width: 100%;
+                text-align: center;
+                .text-container {
+                    width: 80%;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    footer .wrapper .footer-container {
+        .footer-logo {
+            flex: 1 1 15%;
+        }
+        .footer-adress-icon {
+            flex: 1 1 25%;
+            padding: 0 15px 0 30px;
+        }
+        .footer-contact {
+            flex: 1 1 25%;
+        }
+        .footer-tripadvisor {
+            flex: 1 1 35%;
+            .inner-tripadvisor-review .button-tripadvisor {
+                font-size: 14px;
+            }
+        }
+    }
+    .scroll {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    header .main-banner {
+        background: url(/images/3.jpeg) no-repeat;
+        background-size: cover;
+        max-height: 480px;
+        overflow: hidden;
+    }
+
+    header .wrapper .header-bar-container {
+        display: block;
+        .contact-left {
+            width: 100%;
+            .contact {
+                display: block;
+                width: 100%;
+                span {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 8px;
+                    text-align: left;
+                    .fa-mobile-alt {
+                        margin-left: 3px;
+                    }
+                    .fa-envelope {
+                        margin-left: 2px;
+                    }
+                }
+
+            }
+        }
+        .social-media {
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+    }
+
+    header .main-banner {
+        .outer-menu-container-sticky {
+            display: none;
+        }
+        .outer-menu-container {
+            padding-bottom: 0;
+            .wrapper {
+                margin: 0;
+                width: 100%;
+                .nav-container-home {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .nav-logo {
+                        flex: 1 1 60%;
+                        margin: 0;
+                        padding: 0 0 2% 10%;
+                        background-color: rgba(0, 0, 0, 0.9);
+                    }
+                    .burger-container {
+                        flex: 1 1 30%;
+                        text-align: right;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                    }
+
+                    .active-burger{
+                        display: none;
+                    }
+                    .nav-home {
+                        flex: 1 1 90%;
+                        margin: 0 auto;
+                        font-weight: 600;
+        
+                        ul.nav {
+                            flex-wrap: wrap;
+                            padding: 0;
+        
+                            li {
+                                flex: 1 1 100%;
+                                padding: 6px 0;
+                                background-color: #c59d5f;
+                                border-bottom: 0.5px #fff solid;
+                                &:last-child{
+                                    border-bottom: none;
+                                }
+                                ul.sub-nav li {
+                                    padding: 6px 0;
+                                    background-color: #c59d5f;
+                                    border-bottom: 0.5px #fff solid;
+                                    &:first-child{
+                                        border-top: 0.5px #fff solid;
+                                    }
+                                    &:last-child{
+                                        border-bottom: none;
+                                        padding-bottom: 0;
+                                    }
+                                    a{
+                                        color: #525252;;
+                                    }
+                                }
+                            }
+                        }
+                    } 
+                }
+                
+                
+        
+            }
+        }
+
+    }
+
+    .pop-up .pop-up-card {
+        width: 80%;
+        margin: 0 auto;
+
+        .pop-up-text {
+            padding: 5%;
+            h3 {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 14px;
+            }
+            p {
+                font-size: 10px;
+                font-weight: 400;
+                text-align: auto;
+                line-height: 12px;
+                margin-bottom: 8px;
+            }
+
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .reservation-pop-up .reservation-container-card .rest-info .right-container {
+        margin-left: 2%;
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    main {
+        .parallax-img-one, .parallax-img-two, .parallax-img-three, .parallax-img-four,.parallax-img-five {
+            height: 400px;
+            .ptext .border {
+                padding: 14px;
+                font-size: 28px;
+            }
+        }
+        .wrapper {
+            .gallery {
+                margin-top: 20px;
+                .gallery-container {
+                    flex-wrap: wrap;
+                    .gallery-img-container {
+                        flex: 1 1 48%;
+                        margin: 1%;
+                        img {
+                            &:hover {
+                                transform: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .flipping-cards {
+                .cards {
+                    width: 90%;
+                }
+                .cards li .front p {
+                    font-size: 14px;
+                }
+                .cards li .front span {
+                   padding-top: 4px;
+                   font-size: 22px;
+                   font-weight: 500;
+                }
+
+           }
+   
+           .about-us {
+               .about-left {
+                   display: none;
+               }
+               .about-right {
+                   h2 {
+                       font-size: 24px;
+                       color: #c59d5f;
+                   }
+                   .about-fields {
+                       display: block;
+                       width: 100%;
+                       text-align: center;
+                       .text-container {
+                               width: 80%;
+                               margin: 0 auto;
+                               margin-bottom: 10px;
+                               &:last-child {
+                                   margin-bottom: 0;
+                               }
+                           }
+                   }
+               }
+           }
+
+           .appetizers-menu, .main-menu, .desserts-menu {
+               h3 {
+                width: 75%;
+                font-size: 26px;
+               }
+               .menu-tabs-appetizer, .menu-tabs-main, .menu-tabs-dessert {
+                   width: 96%;
+                   margin: 5% 2%;
+                   .tabs {
+                       width: 98%;
+                       margin: 1%;
+                       .trigger {
+                           font-size: 12px;
+                           padding: 3% 0;
+                       }
+                   }
+               }
+
+                #carte-menu.active, #carte-menu-vege.active {
+                    width: 96%;
+                    margin: 0 auto;
+                    ul {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+            }
+           }
+
+           .events {
+               h2 {
+                   font-size: 24px;
+               }
+              .responsive-gallery .gallery-item {
+                flex: 1 1 48%;
+                padding:1%;
+              }
+           }
+
+           .contact {
+               flex-wrap: wrap;
+               .contact-flex-left {
+                    flex: 1 1 96%;
+                    margin: 0 2%;
+                    h3 {
+                        font-size: 24px;
+                    }
+
+                    .contact-card {
+                        margin: 2%;
+                    }
+                    .booking-btn {
+                        margin-top: 5%;
+                    }
+               }
+               .contact-flex-right {
+                    flex: 1 1 96%;
+                    margin: 0 2%;
+               }
+           }
+
+    
+        }
+    }
+    
+    footer  {
+        padding: 5% 0;
+        .wrapper {
+            width: 96%;
+            margin: 0 auto;
+            .footer-container {
+                display: block;
+                width: 98%;
+                margin-bottom: 1%;
+                .footer-logo {
+                    display: block;
+                    width: 120px;
+                    height: 120px;
+                    background-size: 101%;
+                    background-position: left;
+                }
+                .footer-adress-icon {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 1%;
+                    .icon-text-container {
+                        position: relative;
+                        p {
+                            padding-left: 0;
+                        }
+                        .footer-icon {
+                            position: absolute;
+                            left: 2px;
+                        }
+                    }
+                }
+                .footer-contact {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 1%;
+                    .icon-text-container {
+                        position: relative;
+                        p {
+                            padding-left: 0;
+                        
+                        }
+                        .footer-icon {
+                            position: absolute;
+                        }
+                        .footer-icon-email {
+                            position: absolute;
+                        }
+                    }
+                }
+                .footer-tripadvisor {
+                    display: block;
+                    width: 40%;
+                    padding: 0;
+                    .inner-tripadvisor-review {
+                        width: 100%;
+                        height: auto;
+                        p {
+                            font-size: 12px;
+                        }
+                        .button-tripadvisor {
+                            font-size: 10px;
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+
+    }
+    .scroll {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    header .main-banner {
+        background: url(/images/3.jpeg) no-repeat;
+        background-size: cover;
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+    .pop-up .pop-up-card {
+        width: 80%;
+        margin: 0 auto;
+
+        .pop-up-text {
+            padding: 5%;
+            h3 {
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 12px;
+                margin-bottom: 8px;
+            }
+            p {
+                font-size: 8px;
+                font-weight: 400;
+                text-align: auto;
+                line-height: 10px;
+                margin-bottom: 6px;
+            }
+
+            span {
+                font-size: 10px;
+                font-weight: 500;
+                line-height: 12px;
+            }
+        }
+    }
+
+    .reservation-pop-up .reservation-container-card .form-container {
+        width: 90%;
+        padding: 3%;
+    }
+    .reservation-pop-up .reservation-container-card .rest-info {
+        width: 90%;
+    }
+
+    .reservation-pop-up .reservation-container-card .rest-info .right-container {
+        margin-left: 1%;
+        h2 {
+            font-size: 18px;
+        }
+    }
+
+    main {
+        .parallax-img-one, .parallax-img-two, .parallax-img-three, .parallax-img-four,.parallax-img-five {
+            height: 300px;
+            .ptext .border {
+                padding: 10px;
+                font-size: 22px;
+            }
+        }
+        .wrapper {
+            .gallery {
+                margin-top: 20px;
+                .gallery-container {
+                    flex-wrap: wrap;
+                    .gallery-img-container {
+                        flex: 1 1 48%;
+                        margin: 1%;
+                        img {
+                            &:hover {
+                                transform: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .flipping-cards {
+                .cards {
+                    width: 90%;
+                }
+                .cards li .front p {
+                    font-size: 10px;
+                }
+                .cards li .front span {
+                   padding-top: 4px;
+                   font-size: 16px;
+                   font-weight: 500;
+                }
+
+           }
+   
+           .about-us {
+               .about-left {
+                   display: none;
+               }
+               .about-right {
+                   h2 {
+                       font-size: 24px;
+                       color: #c59d5f;
+                   }
+                   .about-fields {
+                       display: block;
+                       width: 100%;
+                       text-align: center;
+                       .text-container {
+                               width: 80%;
+                               margin: 0 auto;
+                               margin-bottom: 10px;
+                               &:last-child {
+                                   margin-bottom: 0;
+                               }
+                           }
+                   }
+               }
+           }
+
+           .appetizers-menu, .main-menu, .desserts-menu {
+               h3 {
+                width: 90%;
+                font-size: 22px;
+               }
+               .menu-tabs-appetizer, .menu-tabs-main, .menu-tabs-dessert {
+                   width: 96%;
+                   margin: 5% 2%;
+                   .tabs {
+                       width: 98%;
+                       margin: 1%;
+                       .trigger {
+                           font-size: 10px;
+                           padding: 3% 0;
+                       }
+                   }
+               }
+
+                #carte-menu.active, #carte-menu-vege.active {
+                    width: 96%;
+                    margin: 0 auto;
+                    ul {
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+            }
+           }
+
+           .events {
+               h2 {
+                   font-size: 22px;
+               }
+              .responsive-gallery .gallery-item {
+                flex: 1 1 98%;
+                padding:1%;
+              }
+           }
+
+           .contact {
+               flex-wrap: wrap;
+               .contact-flex-left {
+                    flex: 1 1 96%;
+                    margin: 0 2%;
+                    h3 {
+                        font-size: 22px;
+                    }
+
+                    .contact-card {
+                        margin: 2%;
+                    }
+
+                    .booking-btn {
+                        margin-top: 5%;
+                    }
+               }
+               .contact-flex-right {
+                    flex: 1 1 100%;
+               }
+           }
+
+    
+        }
+    }
+    
+    footer  {
+        padding: 5% 0;
+        .wrapper {
+            width: 96%;
+            margin: 0 auto;
+            .footer-container {
+                display: block;
+                width: 98%;
+                margin-bottom: 1%;
+                .footer-logo {
+                    display: block;
+                    width: 120px;
+                    height: 120px;
+                    background-size: 101%;
+                    background-position: left;
+                }
+                .footer-adress-icon {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 1%;
+                    .icon-text-container {
+                        position: relative;
+                        p {
+                            padding-left: 0;
+                        }
+                        .footer-icon {
+                            position: absolute;
+                            left: 2px;
+                        }
+                    }
+                }
+                .footer-contact {
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 1%;
+                    .icon-text-container {
+                        position: relative;
+                        p {
+                            padding-left: 0;
+                        
+                        }
+                        .footer-icon {
+                            position: absolute;
+                        }
+                        .footer-icon-email {
+                            position: absolute;
+                        }
+                    }
+                }
+                .footer-tripadvisor {
+                    display: block;
+                    width: 60%;
+                    padding: 0;
+                    .inner-tripadvisor-review {
+                        width: 100%;
+                        height: auto;
+                        p {
+                            font-size: 12px;
+                        }
+                        .button-tripadvisor {
+                            font-size: 10px;
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+    }
+    .scroll {
+        display: none;
+    }
+}
