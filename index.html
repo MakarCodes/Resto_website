@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesSCSS/styles.css">
+    <link rel="stylesheet" href="stylesSCSS/animationstyles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="animations.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Resto Restaurant</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="wrapper">
+            <div class="header-bar-container">
+                <div class="contact-left">
+                    <div class="contact"><span><i class="fas fa-mobile-alt" style="color:goldenrod; padding-right: 8px;"></i>+48 22 66 45 751 / +48 659 856 222</span></div>
+                    <div class="contact"><span><i class="far fa-envelope" style="color:goldenrod; padding-right: 8px;"></i>rezerwacja@resto.com.pl</span></div>
+                    <div class="contact"><span class="booking"><i class="fas fa-coffee" style="color:goldenrod; padding-right: 8px;"></i>Zarezerwuj stolik online</span></div>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f" style="color:goldenrod;"></i></a>
+                    <a href="https://pl.tripadvisor.com/" class="tripadvisor"><i class="fab fa-tripadvisor" style="color:goldenrod;"></i></a>
+                    <a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram" style="color:goldenrod;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-banner">
+            <div class="outer-menu-container">
+                <div class="wrapper">
+                    <!-- NAV -->
+                    <div class="nav-container-home">
+                        <div class="nav-logo">
+                            <span></span>
+                            <div class="burger-container">
+                                <button class="burger-nav">
+                                    <div class="burger">
+                                        <span class="burger-line"></span>
+                                        <span class="burger-line"></span>
+                                        <span class="burger-line"></span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <nav class="nav-home active-burger">
+                            <ul class="nav">
+                                <li><a href="#">home</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-about-us">about us</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-menu" class="scroll-parallax">menu <span><i class="fas fa-chevron-circle-down"></i></span></a>
+                                    <ul class="sub-nav">
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu" class="scroll-parallax">appetizers</a></li>
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu-main" class="scroll-parallax">main cousers</a></li>
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu-dessert" class="scroll-parallax">desserts</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-events">events</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-contact">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="outer-menu-container-sticky">
+                <div class="wrapper">
+                    <div class="nav-container-sticky">
+                        <div class="nav-logo"><span></span></div>
+                        <nav class="nav-home">
+                            <ul class="nav">
+                                <li><a href="#">home</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-about-us">about us</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-menu" class="scroll-parallax">menu <span><i class="fas fa-chevron-circle-down"></i></span></a>
+                                    <ul class="sub-nav">
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu" class="scroll-parallax">appetizers</a></li>
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu-main" class="scroll-parallax">main cousers</a></li>
+                                        <li><a href="javascript:void(0);" data-scroll="#scroll-menu-dessert" class="scroll-parallax">desserts</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-events">events</a></li>
+                                <li><a href="javascript:void(0);" data-scroll="#scroll-contact">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- WELCOME POP-UP -->
+
+    <div class="pop-up">
+        <div class="pop-up-card">
+            <div class="close-icon"><i class="far fa-times-circle fa-2x"></i></i></div>
+            <div class="pop-up-text">
+                <h3>Experience the taste of our dishes at home!</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium at temporibus commodi quaerat. Quis nesciunt ab officia accusamus debitis? Quos, assumenda voluptas, facere in perferendis rerum dolor ratione quaerat asperiores deleniti aperiam, incidunt numquam sequi quasi quis amet iure? Beatae?</p>
+                <p>We kindly invite you to place orders:</p>
+                <span>+48 567 256 885</span>
+                <span>food@resto.com.pl</span>
+            </div>
+            <div class="pop-up-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll start -->
+
+    <section class="scroll-up">
+        <button class="scroll">
+            <i class="fas fa-angle-up"></i>
+        </button>
+    </section>
+
+    <!-- Scroll finish -->
+
+    <!-- RESERVATION POP UP SECTION -->
+
+    <section class="reservation-pop-up">
+        <div class="reservation-container-card">
+            <div class="rest-info">
+                <div class="close-icon close-reservation"><i class="far fa-times-circle fa-2x"></i></i></div>
+                <div class="logo-container">
+                    <span>Logo</span>
+                </div>
+                <div class="right-container">
+                    <h2>Resto Restaurant</h2>
+                    <p>Królewska 4, Warsaw</p>
+                </div>
+            </div>
+            <div class="form-container">
+                <form method="GET" action="index.html">
+                    <label for="data-name"  class="astrix">Name</label>
+                    <input type="tel" id="data-name" class="form-field" required>
+                    <label for="data-phone">Phone</label>
+                    <input type="number" id="data-phone">
+                    <label for="data-email">Email</label>
+                    <input type="email" id="data-email">
+                    <label for="data-date" class="astrix">Date</label>
+                    <input type="date" id="data-date" class="form-field" required>
+                    <label for="data-time" class="astrix">Time</label>
+                    <input type="time" id="data-time" class="form-field" required>
+                    <label for="data-attendees" class="astrix">Number of Attendees</label>
+                    <select name="data-attendees" id="data-attendees" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="10+">10+ (specify in comments)</option>
+                    </select>
+                    <label for="data-info">Comments / Additional Requests</label>
+                    <textarea name="data-info" id="data-info" cols="20" rows="5"></textarea>
+                    <div class="submit-button">
+                        <button type="submit">submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="form-footer"></div>
+        </div>
+    </section>
+
+    <main>
+        <div class="wrapper">
+            <section class="gallery">
+                <div class="gallery-container animatable moveUp">
+                    <div class="gallery-img-container">
+                        <img src="images/interior-1.jpeg" alt="interior1">
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/interior-2.jpeg" alt="interior2">
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/interior-3.jpeg" alt="interior3">
+                    </div>
+                    <div class="gallery-img-container">
+                        <img src="images/interior-5.jpeg" alt="interior4">
+                    </div>
+                </div>
+            </section>
+
+            <section class="flipping-cards">
+                <div class="loading-line animatable lineAnimation"></div>
+                <ul class="cards">
+                    <li>
+                        <div class="front"><div><p>Michelin Starred</p> <span>2017</span></div></div>
+                        <div class="back"><div class="icon"></div></div>
+                    </li>
+                    <li>
+                        <div class="front"> <div><p>Poland Best Restaurant</p><span>2020</span></div></div>
+                        <div class="back"><div class="icon poland-restaurant"></div></div>
+                    </li>
+                    <li>
+                        <div class="front"><div><p>Eropean Best Quality</p><span>2019</span></div></div>
+                        <div class="back"><div class="icon quality"></div></div>
+                    </li>
+                </ul>
+                <div class="loading-line animatable lineAnimation"></div>
+            </section>
+
+            <section class="about-us" id="scroll-about-us">
+                <div class="about-left animatable bounceInLeft">
+                    <div class="about-img">
+                        <img src="images/service.jpg" alt="about-us">
+                    </div>
+                </div>
+
+                <div class="about-right animatable bounceInRight">
+                    <h2>about us</h2>
+                    <div class="about-text">
+                        <p>Restauracja Belvedere to jeden z najpiękniejszych i najciekawszych punktów na kulinarnej mapie Polski. Restauracja mieści się w wyjątkowym budynku Nowej Oranżerii w Łazienkach Królewskich. To budynek o ponad 150-letniej historii. Jak za dawnych czasów wypełniają go okazałe tropikalne rośliny, w tym ponad 100- letnia palma!</p>
+                    </div>
+                    <div class="about-fields">
+                        <div class="text-container-one text-container">
+                            <a href="#" class="btn">more about us</a>
+                        </div>
+                        <div class="text-container-two text-container">
+                            <a href="#" class="btn">meet our team</a>
+                        </div>
+                        <div class="text-container-three text-container">
+                            <a href="#" class="btn">360 degree walk</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="parallax-img-one" id="scroll-menu">
+            <div class="ptext">
+                <span class="border">
+                    Menu - Appetizers
+                </span>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <section class="appetizers-menu">
+                <h3>Summer appetizers</h3>
+                <div class="menu-tabs-appetizer">
+                    <ul class="tabs">
+                        <li class="trigger active" data-target="#carte-menu">Carte Menu</li>
+                        <li class="trigger" data-target="#carte-menu-vege">Vegetarian Carte Menu</li>
+                    </ul>
+
+                    <div id="carte-menu" class="content active">
+                            <ul>
+                                <li>
+                                    <span class="dish">Kasztan</span>
+                                    <span class="price">$17</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$20</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$23</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$19</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$15</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                    <div id="carte-menu-vege" class="content">
+                        <ul>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$29</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$18</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$24</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$20</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                        </ul>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="parallax-img-two" id="scroll-menu-main">
+            <div class="ptext">
+                <span class="border">
+                    Menu - Main Cousers
+                </span>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <section class="main-menu">
+                <h3>Summer Main Cousers</h3>
+                <div class="menu-tabs-main">
+                    <ul class="tabs">
+                        <li class="trigger active" data-target="#carte-menu">Carte Menu</li>
+                        <li class="trigger" data-target="#carte-menu-vege">Vegetarian Carte Menu</li>
+                    </ul>
+
+                    <div id="carte-menu" class="content active">
+                            <ul>
+                                <li>
+                                    <span class="dish">Kasztan</span>
+                                    <span class="price">$17</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$20</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$23</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$19</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$15</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                    <div id="carte-menu-vege" class="content">
+                        <ul>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$29</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$18</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$24</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$20</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                        </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="parallax-img-three" id="scroll-menu-dessert">
+            <div class="ptext">
+                <span class="border">
+                    Menu - Desserts
+                </span>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <section class="desserts-menu">
+                <h3>Summer appetizers</h3>
+                <div class="menu-tabs-dessert">
+                    <ul class="tabs">
+                        <li class="trigger active" data-target="#carte-menu">Carte Menu</li>
+                        <li class="trigger" data-target="#carte-menu-vege">Vegetarian Carte Menu</li>
+                    </ul>
+
+                    <div id="carte-menu" class="content active">
+                            <ul>
+                                <li>
+                                    <span class="dish">Kasztan</span>
+                                    <span class="price">$17</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$20</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$23</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$19</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                                <li>
+                                    <span class="dish">Voluptate Cillum fugiat</span>
+                                    <span class="price">$15</span>
+                                    <span class="description">Cheese, tomato, mushrooms, onions</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                    <div id="carte-menu-vege" class="content">
+                        <ul>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$29</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$18</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$24</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                            <li>
+                                <span class="dish">Voluptate Cillum fugiat</span>
+                                <span class="price">$20</span>
+                                <span class="description">Cheese, tomato, mushrooms, onions</span>
+                            </li>
+                        </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="parallax-img-four"></div>
+
+        <div class="wrapper">
+            <section class="events" id="scroll-events">
+                <div class="events-container">
+                    <h2>Organise wedding or event</h2>
+                    <div class="event-text">
+                        <p>Resto restaurant is a unique place to organize company events. The unusual image of this place, developed over many years of operation of the restaurant, raises the rank of each event. The unique interior design of the New Orangery and the beautiful park surroundings create an unforgettable atmosphere at the outset. You can organize a party for up to 350 people in Resto!</p>
+                    </div>
+                    <div class="responsive-gallery">
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0ms;"><img src="images/w6.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.2s;"><img src="images/w2.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.4s;"><img src="images/w3.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.0s;"><img src="images/w4.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.2s;"><img src="images/w5.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.4s;"><img src="images/w6.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.0s;"><img src="images/w6.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.2s;"><img src="images/w2.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.4s;"><img src="images/w3.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.0s;"><img src="images/w4.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.2s;"><img src="images/w5.jpg" alt=""></div>
+                        <div class="gallery-item animatable moveUp" style="animation-delay: 0.4s;"><img src="images/w6.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="parallax-img-five"></div>
+
+        <div class="wrapper">
+            <section class="contact" id="scroll-contact">
+               <div class="contact-flex-left">
+                   <h3>Contact</h3>
+                    <div class="contact-card">
+                        <h4>Carte Menu Delivery:</h4>
+                        <span class="phone-number">+48 546 585 458</span>
+                        <p class="contact-text">Orders are taken every day from 10.00 to 18.00.</p>
+                    </div>
+                    <div class="contact-card">
+                        <h4>Reservations:</h4>
+                        <p>By phone:<span class="phone-number"> +48 526 331 458 / +48 565 888 999</span></p>
+                        <p>By email:<span class="phone-number"> booking@resto.com.pl</span></p>
+                        <p class="contact-text">On weekends and from Monday to Friday after 18:00 please book by phone.</p>
+                    </div>
+                    <div class="booking-btn">
+                        <button class="booking">Book table online</button>
+                    </div>
+                    <div class="dropdown">
+                        <div class="trigger-dropdown"><span class="dropdown-icon active"><i class="fas fa-plus"></i></span><p>Group reservations</p></div>
+                        <div class="dropdown-content">
+                            <div class="contact-person-template">
+                                <div class="img-person"><img src="images/men1.jpg" alt=""></div>
+                                <div class="info-left">
+                                    <p class="name">Tomasz Tomaszewski</p>
+                                    <p class="event-type">Occasional parties, wedding receptions, company meetings, banquets</p>
+                                    <span>tomasz.tomaszewski@resto.com.pl</span>
+                                    <span>+22 56 31 458</span>
+                                    <span>+48 526 331 458</span>
+                                </div>
+                            </div>
+                            <div class="contact-person-template">
+                                <div class="img-person"><img src="images/men3.jpg" alt=""></div>
+                                <div class="info-left">
+                                    <p class="name">Karol Karolewski</p>
+                                    <p class="event-type">Occasional parties, wedding receptions, company meetings, banquets</p>
+                                    <span>karol.karolewski@resto.com.pl</span>
+                                    <span>+22 56 31 458</span>
+                                    <span>+48 526 331 458</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="trigger-dropdown"><span class="dropdown-icon active"><i class="fas fa-plus"></i></span><p>Relations with Guests</p></div>
+                        <div class="dropdown-content">
+                            <div class="contact-person-template">
+                                <div class="img-person"><img src="images/men1.jpg" alt=""></div>
+                                <div class="info-left">
+                                    <p class="name">Krzysztof Krzeszewski</p>
+                                    <p class="event-type">Krzysztof Krzeszewski, Kierownik ds. Relacji z Gośćmi, jest związany z Belvedere od 1992 roku. Przez prawie trzydzieści lat Jego praca miała jeden cel: zadowolenie Gości. To nie zmieniło się do dzisiaj. Obsługa Belvedere pod jego przewodnictwem dba o to, żeby każdy Gość był traktowany po królewsku.</p>
+                                    <span>krzysztof.krzeszefski@resto.com.pl</span>
+                                    <span>+48 526 331 458</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="trigger-dropdown"><span class="dropdown-icon active"><i class="fas fa-plus"></i></span><p>Marketing</p></div>
+                        <div class="dropdown-content">
+                            <div class="contact-person-template">
+                                <div class="img-person"><img src="images/men2.jpg" alt=""></div>
+                                <div class="info-left">
+                                    <p class="name">Jarosław Jarosławski</p>
+                                    <span>jarosław.jarosławski@resto.com.pl</span>
+                                    <span>+48 526 555 458</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="contact-flex-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.151105430698!2d21.012288115797034!3d52.24063897976221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc60916f6be5%3A0xad61e74a7a338d9d!2sKr%C3%B3lewska%204%2C%2000-065%20Warszawa!5e0!3m2!1spl!2spl!4v1585912274198!5m2!1spl!2spl" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+               </div>
+            </section>
+        </div>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-container">
+    
+                <div class="footer-logo">
+                    <h2>RESTO</h2>
+                </div>
+    
+                <div class="footer-adress-icon">
+                    <div class="icon-text-container">
+                        <span class="footer-icon">icon miejsce</span><p>Adres</p>
+                    </div>
+                    <ul class="adress-info">
+                        <li>Resto - Wine&Meat Sp. z o.o.</li>
+                        <li>ul. Królewska 4</li>
+                        <li>00-860 Warszawa</li>
+                    </ul>
+    
+                    <ul class="company-info">
+                        <li>NIP 526-570-77-51</li>
+                        <li>Regon 56845586</li>
+                        <li>KRS 0000155581</li>
+                        <li>mBank S.A. konto:</li>
+                        <li>40 1140 1010 0000 5689 6200 1001</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-contact">
+                    <div class="icon-text-container">
+                        <span class="footer-icon">icon phone</span><p>Telefon</p>
+                    </div>
+                    <p class="footer-phone">+48 22 66 45 751</p>
+                    <p class="footer-phone">+48 659 856 222</p>
+                    <div class="icon-text-container">
+                        <span class="footer-icon-email">icon email</span><p>E-mail</p>
+                    </div>
+                    <p class="footer-phone">rezerwacja@resto.com.pl</p>
+                </div>
+    
+                <div class="footer-tripadvisor">
+                    <div class="inner-container-tripadvisor">
+                        <div class="tripadvisor-logo">
+                            TRIPADVISER LOGO
+                        </div>
+                        <div class="inner-tripadvisor-review">
+                            <p>Napisz recenzję obiektu <span>Restauracja Resto</span></p>
+                            <a href="https://pl.tripadvisor.com/" class="button-tripadvisor">napisz recenzję</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
