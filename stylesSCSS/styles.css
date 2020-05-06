@@ -157,7 +157,7 @@ header .wrapper .header-bar-container .social-media a.instagram:hover {
 }
 
 header .main-banner {
-  background: url(/images/restaurant-in.jpeg) no-repeat;
+  background: url("images/restaurant-in.jpeg") no-repeat;
   background-size: cover;
   width: 100%;
   height: 900px;
@@ -202,7 +202,7 @@ header .main-banner .outer-menu-container .nav-container-home .nav-logo span, he
   height: 70px;
   border: solid 2px #eee;
   border-radius: 50%;
-  background-image: url(/images/resto-logo.PNG);
+  background-image: url("images/resto-logo.png");
   background-position: center;
   background-size: cover;
   opacity: 0.8;
@@ -427,7 +427,7 @@ header .main-banner .burger-container .burger-nav .burger span {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;
           flex: 1 1 50%;
-  background-image: url(/images/tatarwolowy.jpg);
+  background-image: url("images/tatarwolowy.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -531,7 +531,7 @@ header .main-banner .burger-container .burger-nav .burger span {
   height: 70px;
   border: solid 2px #eee;
   border-radius: 50%;
-  background-image: url(/images/resto-logo.PNG);
+  background-image: url("images/resto-logo.png");
   background-position: center;
   background-size: cover;
   text-indent: -1000000px;
@@ -846,7 +846,7 @@ main .wrapper .flipping-cards .cards li .back .icon {
   width: 80%;
   border: solid 2px #fdb822;
   border-radius: 50%;
-  background-image: url(/images/michelin.png);
+  background-image: url("images/michelin.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -860,11 +860,11 @@ main .wrapper .flipping-cards .cards li .back .icon::before {
 main .wrapper .flipping-cards .cards li .back .poland-restaurant {
   width: 65%;
   border-radius: 10px;
-  background-image: url(/images/poland_best_restaurant.png);
+  background-image: url("images/poland_best_restaurant.png");
 }
 
 main .wrapper .flipping-cards .cards li .back .quality {
-  background-image: url(/images/quality.jpg);
+  background-image: url("images/quality.jpg");
 }
 
 main .wrapper .about-us {
@@ -1393,23 +1393,23 @@ main .parallax-img-one .ptext .border, main .parallax-img-two .ptext .border, ma
 }
 
 main .parallax-img-one {
-  background-image: url("/images/appetizer.jpeg");
+  background-image: url("images/appetizer.jpeg");
 }
 
 main .parallax-img-two {
-  background-image: url("/images/steak.jpeg");
+  background-image: url("images/steak.jpeg");
 }
 
 main .parallax-img-three {
-  background-image: url("/images/deser.jpeg");
+  background-image: url("images/deser.jpeg");
 }
 
 main .parallax-img-four {
-  background-image: url("/images/w2.jpg");
+  background-image: url("images/w2.jpg");
 }
 
 main .parallax-img-five {
-  background-image: url("/images/w1.jpg");
+  background-image: url("images/w1.jpg");
 }
 
 footer {
@@ -1453,7 +1453,7 @@ footer .wrapper .footer-container .footer-logo {
           flex: 1 1 calc(50%/3);
   padding: 0 15px;
   text-align: center;
-  background-image: url(/images/resto-logo.PNG);
+  background-image: url("images/resto-logo.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 101%;
@@ -1485,7 +1485,7 @@ footer .wrapper .footer-container .footer-adress-icon .icon-text-container .foot
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
-  background-image: url(/images/phonegold.png);
+  background-image: url("images/phonegold.png");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
@@ -1548,7 +1548,7 @@ footer .wrapper .footer-container .footer-contact .icon-text-container .footer-i
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
-  background-image: url(/images/phonegold.png);
+  background-image: url("images/phonegold.png");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
@@ -1568,7 +1568,7 @@ footer .wrapper .footer-container .footer-contact .footer-icon-email {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0px;
           flex: 1 1 0;
-  background-image: url(/images/mailgold.png);
+  background-image: url("images/mailgold.png");
   background-repeat: no-repeat;
   background-size: 21px;
   background-position: center;
@@ -1614,7 +1614,7 @@ footer .wrapper .footer-container .footer-tripadvisor .tripadvisor-logo {
   margin: 3px 0;
   padding: 0 0 12px;
   border-bottom: 1px solid #00a680;
-  background-image: url(/images/tripadviser-logo.png);
+  background-image: url("images/tripadviser-logo.png");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
