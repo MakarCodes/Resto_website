@@ -202,7 +202,7 @@ header .main-banner .outer-menu-container .nav-container-home .nav-logo span, he
   height: 70px;
   border: solid 2px #eee;
   border-radius: 50%;
-  background-image: url("../images/resto-logo.png");
+  background-image: url("../images/resto-logo.PNG");
   background-position: center;
   background-size: cover;
   opacity: 0.8;
@@ -1453,7 +1453,7 @@ footer .wrapper .footer-container .footer-logo {
           flex: 1 1 calc(50%/3);
   padding: 0 15px;
   text-align: center;
-  background-image: url("../images/resto-logo.png");
+  background-image: url("../images/resto-logo.PNG");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 101%;
