@@ -88,7 +88,7 @@ header {
     }
 
     .main-banner {
-        background: url(/images/restaurant-in.jpeg) no-repeat;
+        background: url(images/restaurant-in.jpeg) no-repeat;
         background-size: cover;
         width: 100%;
         height: 900px;
@@ -120,7 +120,7 @@ header {
                         height: 70px;
                         border: solid 2px #eee;
                         border-radius: 50%;
-                        background-image: url(/images/resto-logo.PNG);
+                        background-image: url(images/resto-logo.PNG);
                         background-position: center;
                         background-size: cover;
                         opacity: 0.8;
@@ -302,7 +302,7 @@ header {
 
             .pop-up-image {
                 flex: 1 1 50%;
-                background-image: url(/images/tatarwolowy.jpg);
+                background-image: url(images/tatarwolowy.jpg);
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -392,7 +392,7 @@ header {
                     height: 70px;
                     border: solid 2px #eee;
                     border-radius: 50%;
-                    background-image: url(/images/resto-logo.PNG);
+                    background-image: url(images/resto-logo.PNG);
                     background-position: center;
                     background-size: cover;
                     text-indent: -1000000px;
@@ -647,7 +647,7 @@ main {
                             width: 80%;
                             border: solid 2px $bordersGold;
                             border-radius: 50%;
-                            background-image: url(/images/michelin.png);
+                            background-image: url(images/michelin.png);
                             background-size: cover;
                             background-repeat: no-repeat;
                             &::before {
@@ -660,11 +660,11 @@ main {
                         .poland-restaurant {
                             width: 65%;
                             border-radius: 10px;
-                            background-image: url(/images/poland_best_restaurant.png);
+                            background-image: url(images/poland_best_restaurant.png);
                         }
 
                         .quality {
-                            background-image: url(/images/quality.jpg);
+                            background-image: url(images/quality.jpg);
                         }
                     }
                 }
@@ -1104,19 +1104,19 @@ main {
     }
 
     .parallax-img-one {
-        background-image: url('/images/appetizer.jpeg');
+        background-image: url('images/appetizer.jpeg');
     }
     .parallax-img-two {
-        background-image: url('/images/steak.jpeg');
+        background-image: url('images/steak.jpeg');
     }
     .parallax-img-three {
-        background-image: url('/images/deser.jpeg');
+        background-image: url('images/deser.jpeg');
     }
     .parallax-img-four {
-        background-image: url('/images/w2.jpg');
+        background-image: url('images/w2.jpg');
     }
     .parallax-img-five {
-        background-image: url('/images/w1.jpg');
+        background-image: url('images/w1.jpg');
     }
 }
 
@@ -1151,7 +1151,7 @@ footer {
                 flex: 1 1 calc(50%/3);
                 padding: 0 15px;
                 text-align: center;
-                background-image: url(/images/resto-logo.PNG);
+                background-image: url(images/resto-logo.png);
                 background-repeat: no-repeat;
                 background-position: center top;
                 background-size: 101%;
@@ -1171,7 +1171,7 @@ footer {
 
                     .footer-icon {
                         flex: 1 1 0;
-                        background-image: url(/images/phonegold.png);
+                        background-image: url(images/phonegold.png);
                         background-repeat: no-repeat;
                         background-size: 20px;
                         background-position: center;
@@ -1222,7 +1222,7 @@ footer {
 
                     .footer-icon {
                         flex: 1 1 0;
-                        background-image: url(/images/phonegold.png);
+                        background-image: url(images/phonegold.png);
                         background-repeat: no-repeat;
                         background-size: 20px;
                         background-position: center;
@@ -1240,7 +1240,7 @@ footer {
 
                 .footer-icon-email {
                     flex: 1 1 0;
-                    background-image: url(/images/mailgold.png);
+                    background-image: url(images/mailgold.png);
                     background-repeat: no-repeat;
                     background-size: 21px;
                     background-position: center;
@@ -1277,7 +1277,7 @@ footer {
                     margin: 3px 0;
                     padding: 0 0 12px;
                     border-bottom: 1px solid $tripadvisorSeaColor;
-                    background-image: url(/images/tripadviser-logo.png);
+                    background-image: url(images/tripadviser-logo.png);
                     background-position: center;
                     background-size: 60%;
                     background-repeat: no-repeat;
