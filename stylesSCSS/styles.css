@@ -531,7 +531,7 @@ header .main-banner .burger-container .burger-nav .burger span {
   height: 70px;
   border: solid 2px #eee;
   border-radius: 50%;
-  background-image: url("../images/resto-logo.png");
+  background-image: url("../images/resto-logo.PNG");
   background-position: center;
   background-size: cover;
   text-indent: -1000000px;
@@ -1773,7 +1773,7 @@ footer .wrapper .footer-container .footer-tripadvisor .inner-tripadvisor-review 
 
 @media screen and (max-width: 768px) {
   header .main-banner {
-    background: url(/images/3.jpeg) no-repeat;
+    background: url("../images/3.jpeg") no-repeat;
     background-size: cover;
     max-height: 480px;
     overflow: hidden;
@@ -2103,7 +2103,7 @@ footer .wrapper .footer-container .footer-tripadvisor .inner-tripadvisor-review 
 
 @media screen and (max-width: 480px) {
   header .main-banner {
-    background: url(/images/3.jpeg) no-repeat;
+    background: url("../images/3.jpeg") no-repeat;
     background-size: cover;
     max-height: 300px;
     overflow: hidden;
