@@ -9,9 +9,6 @@ Project is created with:
 * JavaScript
 * jQuery
 
-## Screenshoots
-![Game-Settings](./img/vnmFwGcRjv.gif)
-
 ## Live
 https://makarcodes.github.io/Resto_website/
 	
@@ -21,3 +18,7 @@ To run this project, clone it and open with live server:
 $ cd to the folder where you want to download the project
 $ git clone https://github.com/MakarCodes/Resto_website.git
 ```
+## Credits
+
+animations: http://www.bram.us/2013/11/20/scroll-animations/
+inspiration: https://www.belvedere.com.pl/
